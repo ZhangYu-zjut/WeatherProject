@@ -14,6 +14,7 @@ Attention: Please install these dependences at first, and we assume that you hav
 
 ## Qulick start the configuration
 """
+
 1.go to the configuration of nginx and add one line code in "nginx.conf"
   cd /etc/nginx
   sudo vim nginx.conf
@@ -30,12 +31,15 @@ If you want to switch to your 'domain address' and 'SSL certificate',you need to
 - change the https request responce to your own in the code file "server.py".
 - other modifications that you need without my mention.
 
+
 """
 
 ## The steps that enjoy this application.
 """
+
 1.Touch the "search" button in Wechat.
 2.Input "小天和小气遇到了鱼宝"(Chinese) and search the miniprogram.
 3.Get into the miniprogram.
 4.Input the city name and search the weather as the UI shows,enjoy your time, (:
+
 """
