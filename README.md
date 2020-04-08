@@ -1,6 +1,10 @@
 # WeatherProject
 This is my weather query project
 
+# Function Description
+- Query the current city weather information, including  temprature、wind direction、weather and so on.
+- Update the city weather data information every hour.
+
 # Requirements
 - Aginx 1.14.0
 - Python 3.6
