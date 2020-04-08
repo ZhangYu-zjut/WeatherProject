@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="nowcity">
+    <view class="nowcity-font">
+      当前位置->{{weather?weather[1]:(userCity?userCity:"未知")}}
+    </view>
+    <view class="nowcity-change">
+      <form bindsubmit="submit">
+        <input class='change-input' placeholder='请输入要查询的城市(如北京、上海、广州等)' name='city'/>
+        <button class="form-button" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取居住地区天气</button>
+        <button class="form-button" form-type="submit">查询其他城市天气</button>
+      </form>
+    </view>
+  </view>  
+  
+  <view class="weather" wx:if="{{weather}}">
+    <view class="temp">
+      <view class="img-box">
+        <image class="temp-img-up" src="../images/wd.jpg"/>
+      </view>
+      <view class="temp-right">
+        <view class="p25">
+          <view class="font">{{weather[3]}}</view>
+        <image src="../images/{{weather[3]}}.gif" class="pm25-img"/>
+        </view>
+        <view class="temp-num">
+          {{weather[4]}}℃
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class="weather-det" wx:if="{{weather}}">
+    <view class="weather-det-box">
+      <view class="det-box-item">
+        <image class="item-icon" src="../images/feng.png"></image>
+        <view class="item-font">风向:{{weather[7]}}{{weather[8]}}</view>
+      </view>
+      <view class="det-box-item">
+        <image class="item-icon" src="../images/sd.png"></image>
+        <view class="item-font">湿度:{{weather[5]}}</view>
+      </view>
+      <view class="det-box-item">
+        <image class="item-icon" src="../images/njd.png"></image>
+        <view class="item-font">能见度:{{weather[6]}}</view>
+      </view>
+      <view class="det-box-item">
+        <image class="item-icon" src="../images/xh.png"></image>
+        <view class="item-font">限行:{{weather[10].length>0?weather[10]:'无'}}</view>
+      </view>
+      <view class="det-box-item">
+        <image class="item-icon" src="../images/xh.png"></image>
+        <view class="item-font">PM2.5:{{weather[9].length>0?weather[9]:'无数据'}}</view>
+      </view>
+    </view>
+  
+  </view>
+</view>

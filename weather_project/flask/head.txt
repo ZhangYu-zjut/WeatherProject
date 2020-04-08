@@ -1,0 +1,8 @@
+Accept:*/*
+Accept-Encoding:gzip, deflate
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+Accept-Language:zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:keep-alive
+Cookie:Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1583032681; cityListCmp=%E5%8C%97%E4%BA%AC-101010100-20200301%7C%E4%B8%8A%E6%B5%B7-101020100-20200302%7C%E5%B9%BF%E5%B7%9E-101280101-20200303%7C%E6%B7%B1%E5%9C%B3-101280601-20200304%2Cdefault%2C20200301; UM_distinctid=1709419c4ba21a-0f33f5d9755326-4313f6b-144000-1709419c4bb38b; Wa_lvt_1=1583032682; f_city=%E5%AE%81%E6%B3%A2%7C101210401%7C; cityListHty=101020700%7C101210401%7C101010100%7C101020100%7C101280101%7C101280601%7C101010300; vjlast=1583033075.1583033075.30; vjuids=-4a607640a.170941fc635.0.dc047bed501cc; returnUrl=http%3A%2F%2Fwww.weather.com.cn%2Fprofile%2Fcity.shtml; Wa_lpvt_51=1583033114; Wa_lvt_51=1583033114; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1583040329; Wa_lpvt_1=1583040330
+Host:d1.weather.com.cn
+Referer:http://www.weather.com.cn/weather1d/101210401.shtml
