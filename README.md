@@ -41,9 +41,9 @@ If you want to switch to your 'domain address' and 'SSL certificate',you need to
 ## The steps that enjoy this application.
 """
 
-1.Touch the "search" button in Wechat.
-2.Input "小天和小气遇到了鱼宝"(Chinese) and search the miniprogram.
-3.Get into the miniprogram.
-4.Input the city name and search the weather as the UI shows,enjoy your time, (:
+- 1.Touch the "search" button in Wechat.
+- 2.Input "小天和小气遇到了鱼宝"(Chinese) and search the miniprogram.
+- 3.Get into the miniprogram.
+- 4.Input the city name and search the weather as the UI shows,enjoy your time, (:
 
 """
